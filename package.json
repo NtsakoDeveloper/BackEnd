@@ -4,13 +4,12 @@
   "description": "Rent.Me Node.js Back_End",
   "main": "app.js",
   "scripts": {
-     "start": "node app.js",
+    "start": "node app.js",
     "test": "nodemon app.js"
   },
-  
   "engines": {
-  "node": "^8 || ^10"
-},
+    "node": "^8 || ^10"
+  },
   "author": "Team #33",
   "license": "ISC",
   "dependencies": {

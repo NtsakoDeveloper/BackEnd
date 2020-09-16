@@ -67,6 +67,16 @@ module.exports ={
       })
     },
 
+    deleteV: async (req,res) => {
+      Vacancy.findByIdAndDelete({_id: req.params.id})
+      .then(vacs => {
+        res.json(vacs)
+      })
+      .catch(err => {
+        res.json(err);
+      })
+    },
+
 
 
 }

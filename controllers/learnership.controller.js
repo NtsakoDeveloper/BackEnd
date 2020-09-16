@@ -67,6 +67,17 @@ module.exports ={
       })
     },
 
+    deleteV: async (req,res) => {
+      Learnership.findByIdAndDelete({_id: req.params.id})
+      .then(vacs => {
+        res.json(vacs)
+      })
+      .catch(err => {
+        res.json(err);
+      })
+    },
+
+
 
 
 }

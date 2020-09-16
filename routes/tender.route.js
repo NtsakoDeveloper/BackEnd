@@ -27,6 +27,8 @@ router.post('/Tenders', Vaccontroller.addVacancy )
 //Sometimes it takes time to understand the concept but it is okay learning is never meant to be easy 28/07/2020
 router.post("/UpdateTenders", Vaccontroller.UpdateVac)
 
+router.delete("/delete/:id", Vaccontroller.deleteV)
+
 //Deleting the user
 //router.delete("/deleteRoom", auth, roomcontroller.Delete)
 

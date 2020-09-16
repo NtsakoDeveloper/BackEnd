@@ -27,6 +27,9 @@ router.post('/addProjects', roomcontroller.addroom )
 //Sometimes it takes time to understand the concept but it is okay learning is never meant to be easy 28/07/2020
 router.post("/updateProjects", roomcontroller.UpdateRoom)
 
+
+router.delete("/delete/:id", roomcontroller.deleteV)
+
 //Deleting the user
 //router.delete("/deleteRoom", auth, roomcontroller.Delete)
 
