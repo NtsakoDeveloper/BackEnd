@@ -7,6 +7,10 @@
      "start": "node app.js",
     "test": "nodemon app.js"
   },
+  
+  "engines": {
+  "node": "^8 || ^10"
+},
   "author": "Team #33",
   "license": "ISC",
   "dependencies": {
